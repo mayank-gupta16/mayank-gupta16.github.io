@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
   <meta name="description" content="Selected data engineering, backend, analytics, data science, and website work by Mayank Gupta. Read the project challenges, contributions, and outcomes.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <title>Mayank Gupta — Selected Work</title>
   <style>
     :root {
@@ -151,7 +152,7 @@
       <div class="wrap profile-grid">
         <div><p class="eyebrow">01 / About</p><h2 id="about-title">Engineering with the end user in mind.</h2></div>
         <div>
-          <p>My strongest work is in data engineering and analytics: moving data reliably, making it available sooner, and giving teams a clearer view of what is happening. I have also built backend services, worked on applied data science projects, and enjoy making practical websites.</p>
+          <p>My strongest work is in data engineering and analytics: modernizing data workloads, moving data reliably, and giving teams a clearer view of what is happening. I am currently consulting through Celebal Technologies on a Queensland Revenue Office migration from SAP to Databricks. I have also built backend services, worked on applied data science projects, and enjoy making practical websites.</p>
           <p>I pay attention to the details after launch—data quality, observability, access boundaries, understandable interfaces, and maintainable code. The examples below show the problems I worked on, what I contributed, and the outcomes I can substantiate.</p>
         </div>
       </div>
@@ -173,8 +174,24 @@
       <div class="wrap">
         <div class="section-heading"><div><p class="eyebrow">03 / Selected work</p><h2 id="work-title">Problems, work, results.</h2></div><p>Professional projects are attributed to the organizations and client contexts in which the work was done. The website example is a personal project.</p></div>
         <div class="case-list">
+          <article class="case" aria-labelledby="qro-title">
+            <div class="case-visual"><span class="case-no">01 / DATA PLATFORM MODERNIZATION</span><strong>SAP to Databricks.</strong><span class="visual-caption">Single Customer View migration</span></div>
+            <div class="case-body">
+              <p class="case-type">Queensland Revenue Office · via Celebal Technologies</p>
+              <h3 id="qro-title">Migrating customer and entity matching to Databricks</h3>
+              <p class="case-lede">Current consulting work on moving an SAP-based matching workload that creates a reliable Single Customer View across multiple source systems.</p>
+              <dl class="case-facts">
+                <div><dt>Existing workflow</dt><dd>A propagation layer standardizes and enriches names, addresses, and contact details. Rule-based matching groups duplicate or related records and flags ambiguous cases for review.</dd></div>
+                <div><dt>Migration work</dt><dd>Consulting on the move from SAP to Databricks, including matching rules, common group IDs, exception handling, and downstream delivery through tables and APIs.</dd></div>
+                <div><dt>Objective</dt><dd>Preserve the business behavior automated by SAP flowgraphs and task chains while establishing a maintainable Databricks implementation.</dd></div>
+              </dl>
+              <div class="tags" aria-label="Technologies and concepts"><span>SAP</span><span>Databricks</span><span>Entity matching</span><span>Single Customer View</span><span>APIs</span></div>
+              <p class="attribution">Current client engagement · Queensland Revenue Office through Celebal Technologies</p>
+            </div>
+          </article>
+
           <article class="case" aria-labelledby="retail-title">
-            <div class="case-visual"><span class="case-no">01 / DATA ENGINEERING</span><strong>From hours to minutes.</strong><span class="visual-caption">Retail data pipelines</span></div>
+            <div class="case-visual"><span class="case-no">02 / DATA ENGINEERING</span><strong>From hours to minutes.</strong><span class="visual-caption">Retail data pipelines</span></div>
             <div class="case-body">
               <p class="case-type">AJIO / Reliance Industries · via Celebal Technologies</p>
               <h3 id="retail-title">Fresher returns and inventory data at retail scale</h3>
@@ -186,12 +203,12 @@
                 <div><dt>Outcome</dt><dd>Pipeline latency fell below 10 minutes, with lower compute cost and a 99%+ daily success rate across production jobs.</dd></div>
               </dl>
               <div class="tags" aria-label="Technologies"><span>Oracle CDC</span><span>Kafka</span><span>Databricks</span><span>PySpark</span><span>Delta Lake</span></div>
-              <p class="attribution">Data Engineer · AJIO via Celebal Technologies · Aug 2025–present</p>
+              <p class="attribution">Completed client engagement · AJIO through Celebal Technologies</p>
             </div>
           </article>
 
           <article class="case" aria-labelledby="cdp-title">
-            <div class="case-visual"><span class="case-no">02 / BACKEND &amp; DATA PLATFORM</span><strong>Connected data. Controlled access.</strong><span class="visual-caption">Customer data platform</span></div>
+            <div class="case-visual"><span class="case-no">03 / BACKEND &amp; DATA PLATFORM</span><strong>Connected data. Controlled access.</strong><span class="visual-caption">Customer data platform</span></div>
             <div class="case-body">
               <p class="case-type">Celebal Technologies</p>
               <h3 id="cdp-title">Backend services for an enterprise customer data platform</h3>
@@ -207,7 +224,7 @@
           </article>
 
           <article class="case" aria-labelledby="docs-title">
-            <div class="case-visual"><span class="case-no">03 / DOCUMENT INTELLIGENCE</span><strong>A searchable foundation for 14,000+ documents.</strong><span class="visual-caption">Enterprise document platform</span></div>
+            <div class="case-visual"><span class="case-no">04 / DOCUMENT INTELLIGENCE</span><strong>A searchable foundation for 14,000+ documents.</strong><span class="visual-caption">Enterprise document platform</span></div>
             <div class="case-body">
               <p class="case-type">HFCL / pre-sales project</p>
               <h3 id="docs-title">Faster updates for enterprise document retrieval</h3>
@@ -224,7 +241,7 @@
           </article>
 
           <article class="case" aria-labelledby="churn-title">
-            <div class="case-visual"><span class="case-no">04 / APPLIED DATA SCIENCE</span><strong>Behavior into usable insight.</strong><span class="visual-caption">Customer churn analysis</span></div>
+            <div class="case-visual"><span class="case-no">05 / APPLIED DATA SCIENCE</span><strong>Behavior into usable insight.</strong><span class="visual-caption">Customer churn analysis</span></div>
             <div class="case-body">
               <p class="case-type">TE Connectivity · via Celebal Technologies</p>
               <h3 id="churn-title">Churn analysis that business teams could explore</h3>
@@ -240,7 +257,7 @@
           </article>
 
           <article class="case" aria-labelledby="site-title">
-            <div class="case-visual"><span class="case-no">05 / PERSONAL WEBSITE SAMPLE</span><strong>One page. Clear paths.</strong><span class="visual-caption">The page you are reading</span></div>
+            <div class="case-visual"><span class="case-no">06 / PERSONAL WEBSITE SAMPLE</span><strong>One page. Clear paths.</strong><span class="visual-caption">The page you are reading</span></div>
             <div class="case-body">
               <p class="case-type">Personal project · AI-assisted development</p>
               <h3 id="site-title">A focused website for reviewing real work</h3>
@@ -262,8 +279,9 @@
     <section class="section wrap experience" id="experience" aria-labelledby="experience-title">
       <div><p class="eyebrow">04 / Background</p><h2 id="experience-title">Experience &amp; education.</h2></div>
       <div class="timeline">
-        <article class="role"><time datetime="2025-08">2025–present</time><div><h3>Data Engineer · AJIO</h3><p>Through Celebal Technologies. Production returns and inventory pipelines, CDC ingestion, performance, quality, and monitoring.</p></div></article>
-        <article class="role"><time datetime="2024-10">2024–2025</time><div><h3>Data Engineer · Celebal Technologies</h3><p>Backend services, customer data platforms, enterprise integrations, document retrieval, and applied data science projects.</p></div></article>
+        <article class="role"><time>Current</time><div><h3>Data Engineer · Queensland Revenue Office engagement</h3><p>Through Celebal Technologies. Consulting on an SAP-to-Databricks migration for customer and entity matching.</p></div></article>
+        <article class="role"><time>Completed</time><div><h3>Data Engineer · AJIO engagement</h3><p>Through Celebal Technologies. Production returns and inventory pipelines, CDC ingestion, performance, quality, and monitoring.</p></div></article>
+        <article class="role"><time datetime="2024-10">2024–present</time><div><h3>Data Engineer · Celebal Technologies</h3><p>Data platforms, enterprise integrations, document retrieval, analytics, and applied data science projects.</p></div></article>
         <article class="role"><time datetime="2020">2020–2024</time><div><h3>B.Tech. in Computer Science</h3><p>The LNM Institute of Information Technology, Jaipur.</p></div></article>
       </div>
     </section>

@@ -16,7 +16,7 @@ The enquiry form prepares a `mailto:` draft. It does not send or store messages.
 
 ## Content provenance
 
-Professional background and project metrics were drawn from the two résumés supplied by Mayank Gupta in September 2026. AJIO and TE Connectivity work is attributed through Celebal Technologies; the HFCL project is identified as pre-sales. Metrics describe past professional work and are not guarantees for future freelance projects. No endorsements or testimonials are implied. The source PDFs and phone number are not included in this repository.
+Professional background and project metrics were drawn from the two résumés supplied by Mayank Gupta in September 2026. The current Queensland Revenue Office engagement and its SAP-to-Databricks migration scope were supplied directly by Mayank in September 2026. QRO, AJIO, and TE Connectivity work is attributed through Celebal Technologies; the HFCL project is identified as pre-sales. Metrics describe past professional work and are not guarantees for future freelance projects. The QRO migration is presented as ongoing work without invented outcomes. No endorsements or testimonials are implied. The source PDFs and phone number are not included in this repository.
 
 ## Accessibility and assets
 
